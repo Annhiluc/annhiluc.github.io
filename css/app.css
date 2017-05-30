@@ -10,9 +10,3 @@ img.resize {
   max-width:20%;
   max-height:20%;
 }
-
-/* Only resize the element if PDF is embedded */
-.pdfobject-container {
-   width: 100%;
-   height: 100%;
-}
