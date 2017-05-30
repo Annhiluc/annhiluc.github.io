@@ -1,5 +1,6 @@
 body {
  	font-family: 'Source Sans Pro', sans-serif;
+ 	background-image: url("images/sidebarbackground.png");
 }
 
 h1 {
@@ -9,12 +10,4 @@ h1 {
 img.resize {
   max-width:20%;
   max-height:20%;
-}
-
-#bg {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    background-image: url('images/sidebarbackground.png');
-    background-size: 100% 100%;
 }
