@@ -10,3 +10,7 @@ img.resize {
   max-width:20%;
   max-height:20%;
 }
+
+div {
+	padding:10%;
+}
