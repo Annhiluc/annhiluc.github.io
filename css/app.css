@@ -14,3 +14,10 @@ p {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
+div {
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: space-around; /* Safari 6.1+ */
+    display: flex;
+    justify-content: space-around;
+}
+
