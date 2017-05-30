@@ -76,6 +76,7 @@
         <hr />
 
         <h5>Résumé:</h5>
+        <div id="annie-resume"></div>
       </div>
 
       <div class="large-4 medium-4 columns">
@@ -84,7 +85,7 @@
           <p><a href="https://www.linkedin.com/in/lucannie" class="secondary button" target="_blank"><img src="images/linkedin.png" class="resize"></img></a><br/>
           <a href="https://github.com/Annhiluc" class="secondary button" target="_blank"><img src="images/github.png" class="resize"></img></a><br/>
           <a href="https://google.com/+AnnieLuc-ky" class="secondary button" target="_blank"><img src="images/googleplus.png" class="resize"></img></a><br/>
-          <a href="mailto:annhiluc@gmail.com?Subject=Hi%20Annie" class="secondary button" target="_blank">Email</a></p>
+          <a href="mailto:annhiluc@gmail.com?Subject=Hi%20Annie" class="secondary button">Email</a></p>
         </div>
       </div>
     </div>
@@ -93,5 +94,16 @@
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
+
+    <!-- insert just before the closing body tag </body> -->
+    <script src='js/pdfobject.js'></script>
+    <script>
+      //Be sure your document contains an element with the CSS selector "annie-resume"
+      var options = {
+         fallbackLink: '<p>This browser does not support inline PDFs. Please download the PDF to view it: <a href="https://drive.google.com/open?id=0BzppcGsyngGgZEtsNzdWdXo5Qlk">Download Annie\'s Resume</a></p>'
+      };
+
+      PDFObject.embed("https://drive.google.com/open?id=0BzppcGsyngGgZEtsNzdWdXo5Qlk", "annie-resume", options);
+    </script>
   </body>
 </html>

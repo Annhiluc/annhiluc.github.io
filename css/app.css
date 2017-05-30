@@ -1,20 +1,12 @@
 body {
- 	font-family: 'Open Sans', sans-serif;
+ 	font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
 	font-family: 'Arima Madurai', cursive;
 }
 
-h2 {
-	font-family: 'Alegreya Sans', sans-serif;
-}
-
-p {
-	font-family: 'Source Sans Pro', sans-serif;
-}
-
 img.resize {
-  max-width:20%;
-  max-height:20%;
+  max-width:5%;
+  max-height:5%;
 }
