@@ -16,3 +16,7 @@ img.resize {
    width: 200px;
    height: 500px;
 }
+
+.button.secondary {
+	width: 100%;
+}
