@@ -2,11 +2,6 @@ body {
  	font-family: 'Source Sans Pro', sans-serif;
  	margin: 3%;
  	padding: 3%;
- 	background-image: url("images/sidebarbackground.png");
-}
-
-html {
-	background-image: url("images/sidebarbackground.png");
 }
 
 h1, h2, h3, h4, h5 {
@@ -17,4 +12,12 @@ h1, h2, h3, h4, h5 {
 img.resize {
   max-width:17.5%;
   max-height:17.5%;
+}
+
+#bg {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-image: url('images/sidebarbackground.png');
+    background-size: 100% 100%;
 }
