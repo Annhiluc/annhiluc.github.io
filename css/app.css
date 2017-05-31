@@ -1,13 +1,15 @@
 body {
  	font-family: 'Source Sans Pro', sans-serif;
- 	margin: 10;
+ 	margin: 2%;
+ 	background-color: blue;
 }
 
 h1, h2, h3, h4, h5 {
 	font-family: 'Arima Madurai', cursive;
+	font-style: bold;
 }
 
 img.resize {
-  max-width:20%;
-  max-height:20%;
+  max-width:17.5%;
+  max-height:17.5%;
 }
