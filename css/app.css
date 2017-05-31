@@ -2,10 +2,13 @@ body {
  	font-family: 'Source Sans Pro', sans-serif;
  	margin: 3%;
  	padding: 3%;
+ 	background-image: url("images/sidebarbackground.png");
+    background-color: #cccccc;
 }
 
 html {
-	background-color: #C8F7C5;
+	background-image: url("images/sidebarbackground.png");
+    background-color: #cccccc;
 }
 
 h1, h2, h3, h4, h5 {
