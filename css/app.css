@@ -1,7 +1,11 @@
 body {
  	font-family: 'Source Sans Pro', sans-serif;
- 	margin: 2%;
- 	background-color: blue;
+ 	margin: 5%;
+ 	padding: 5%;
+}
+
+html {
+	background-color: green;
 }
 
 h1, h2, h3, h4, h5 {
@@ -12,4 +16,8 @@ h1, h2, h3, h4, h5 {
 img.resize {
   max-width:17.5%;
   max-height:17.5%;
+}
+
+div {
+	max-width: 50%;
 }
